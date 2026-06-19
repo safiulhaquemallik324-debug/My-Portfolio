@@ -1,0 +1,62 @@
+:root {
+    --bg: #0a0812;
+    --bg2: #0f0d1a;
+    --p1: #6c3fc5;
+    --p2: #9b59f5;
+    --p3: #c084fc;
+    --card: rgba(255, 255, 255, 0.04);
+    --border: rgba(156, 92, 250, 0.18);
+    --text: #e2ddf0;
+    --muted: #8b82a8;
+    --white: #ffffff;
+    --grad: linear-gradient(135deg, #6c3fc5, #9b59f5);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--p1);
+    border-radius: 2px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .reveal {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity .6s, transform .6s;
+}
+
+
+/////////links///////////////////////////////////////////links//////////////////////////////////
+@import "_navbar.scss";
+@import "_hero-section.scss";
+@import "_about.scss";
+@import "_skills.scss";
+@import "_projects.scss";
+@import "_contact.scss";
+@import "_footer.scss";
+@import "_responsive.scss";
+@import "_animation.scss";

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-----navbar-->
+    <nav id="nav">
+        <a href="#hero" class="logo">Safiul<span>Haque Mallik</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="burger" id="burger" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="drawer" id="drawer">
+        <a href="#about" onclick="close_()">Home</a>
+        <a href="#about" onclick="close_()">About</a>
+        <a href="#skills" onclick="close_()">Skills</a>
+        <a href="#projects" onclick="close_()">Projects</a>
+        <a href="#experience" onclick="close_()">Portfolio</a>
+        <a href="#contact" onclick="close_()">Contact</a>
+    </div>
+    <!-----------end------------>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="glow glow1"></div>
+        <div class="glow glow2"></div>
+        <div class="hero-inner">
+            <div class="badge">Available for new opportunities</div>
+            <h1 class="hero-title">Hi, I'm <span>Safiul </span>Haque Mallik</h1>
+            <p class="hero-sub">UI/UX Designer & AI-Frontend Developer crafting clean, interactive, and user-focused
+                digital experiences enhanced with modern AI tools</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-fill">View My Work →</a>
+                <a href="./assets/new cv.pdf" class="btn btn-outline">Download My CV</a>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="assets/my-photo.png" />
+        </div>
+    </section>
+    <!-- END OF HERO -->
+
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-img-wrap reveal">
+                <div class="about-img">🧑‍💻</div>
+                <div class="about-deco"></div>
+            </div>
+            <div class="about-text reveal">
+                <p class="tag">About Me</p>
+                <p class="sec-sub">Hi, I’m Safiul — a passionate UI/UX designer and frontend developer who loves
+                    building clean, interactive, and user-friendly digital experiences.</p>
+                <p class="sec-sub">
+                    I specialize in designing modern interfaces and developing responsive websites using HTML, CSS, and
+                    JavaScript. I enjoy turning ideas into smooth, engaging user experiences.</p>
+                <p class="sec-sub"> I focus on both aesthetics and usability — not just making things look good, but
+                    making them
+                    intuitive and meaningful.
+                </p>
+                <p class="sec-sub">
+                    Currently, I’m working on creative projects like an AI-based music platform and continuously
+                    improving my animation and frontend skills.
+                </p>
+                <p class="sec-sub"> I’m always curious to learn, experiment, and create something new.</p>
+
+                <div class="chips">
+                    <a href="#contact" class="chip">
+                        Hire Me
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF ABOUT -->
+
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="skills-head">
+            <h2>My Skills</h2>
+            <p>Technologies and tools I use to build modern, creative digital experiences.</p>
+        </div>
+
+        <!-- Scroll Buttons -->
+        <div class="scroll-btn left" id="scrollLeft">‹</div>
+        <div class="scroll-btn right" id="scrollRight">›</div>
+
+        <!-- Scroll Container -->
+        <div class="skills-wrapper" id="skillsWrapper">
+
+            <div class="skill-item">
+                <img src="assets/HTML5.png" alt="HTML5 logo">
+                <span>HTML</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/CSS.png" alt="CSS3 logo">
+                <span>CSS</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/Javacript.png" alt="Javacript logo">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/Figma.png" alt="Figma logo">
+                <span>Figma</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/React.png" alt="React lgo">
+                <span>React</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/Jquery.png" alt="Jquery logo">
+                <span>Jquery</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/Bootstrap.png" alt="Bootstarp logo">
+                <span>Bootstrap</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/SCSS.png" alt="SCSS logo">
+                <span>SCSS</span>
+            </div>
+
+            <div class="skill-item">
+                <img src="assets/Photoshop.png" alt="Photoshop logo">
+                <span>Photoshop</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/Illustrator.png" alt="Illustrator logo">
+                <span>Illustrator</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/animate.png" alt="Animate logo">
+                <span>Animate CC</span>
+            </div>
+            <div class="skill-item">
+                <img src="assets/after-effects.png" alt="After-effects logo">
+                <span>After Effects</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="sec-head reveal">
+            <p class="tag">My Work</p>
+            <h2 class="sec-title">Featured Projects</h2>
+            <p class="sec-sub">A few things I've built recently.</p>
+        </div>
+        <div class="proj-grid">
+            <div class="proj-card reveal">
+                <div class="proj-thumb c1"></div>
+                <div class="proj-body">
+                    <div class="proj-label">First</div>
+                    <div class="proj-name">Kolkata-transport-app</div>
+                    <div class="proj-desc">A smart Kolkata Transport App featuring metro routes, station information,
+                        fare details,
+                        and an AI-powered assistant that helps users navigate the city's public transportation system
+                        efficiently.</div>
+                    <div class="proj-foot">
+
+                        <div class="pills">
+                            <span class="pill">HTML , CSS ,JavaScript ,Express.js Cross ,Rest API, Antigravity ,Stich, Claude, Chatgpt, Grok</span>
+                        </div>
+
+                        <a href="https://safiulhaquemallik324-debug.github.io/Kolkata-transport-app/" class="proj-link"
+                            target="_blank">
+                            Live Demo →
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="proj-card reveal">
+                <div class="proj-thumb c2"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Second</div>
+                    <div class="proj-name">Recipe-app</div>
+                    <div class="proj-desc">A modern recipe discovery web app built with React, featuring meal search,
+                        category filtering, favorites, shopping lists, and detailed recipe information.</div>
+                    <div class="proj-foot">
+                        <div class="pills">
+                            <span class="pill">React , Vite , API</span>
+                        </div>
+                        <a href="https://safiulhaquemallik324-debug.github.io/Recipe-App/" class="proj-link"> Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-card reveal">
+                <div class="proj-thumb c3"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Third</div>
+                    <div class="proj-name">AI-Chatbot-app</div>
+                    <div class="proj-desc">Modern AI Chatbot built with HTML, CSS,
+                         and JavaScript. Features a clean responsive UI, real-time chat interface, smooth animations, and an interactive user experience.</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">HTML,CSS3,JavaScript</span></div>
+                        <a href="https://safiulhaquemallik324-debug.github.io/AI-chat-bot/" class="proj-link"> Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-card reveal">
+                <div class="proj-thumb c4"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Fourth</div>
+                    <div class="proj-name">Spaceedtech_website</div>
+                    <div class="proj-desc">A modern and futuristic technology landing page built with HTML, SCSS, and Bootstrap.
+                         Features a clean UI, responsive layout, interactive components, and visually appealing design focused on showcasing innovative tech solutions.</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">HTML5,SCSS,Bootstrap 5,CSS3 Animations</span></div>
+                        <a href="https://safiulhaquemallik324-debug.github.io/Spaceedtech_website/" class="proj-link">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+           
+            <!--------------second-------------------------------->
+            <div class="proj-card reveal">
+                <div class="proj-thumb c4"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Fifth</div>
+                    <div class="proj-name">Youtube-clone</div>
+                    <div class="proj-desc">A responsive YouTube Clone built using HTML, CSS, and JavaScript. 
+                        Features a modern UI inspired by YouTube, including a sidebar, search bar, video grid layout, category filters, and responsive design for different screen sizes.</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">HTML,SCSS, JavaScript</span></div>
+                        <a href="https://safiulhaquemallik324-debug.github.io/Youtube-clone/" class="proj-link">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-thumb c4"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Sixth</div>
+                    <div class="proj-name">AnimeVerse</div>
+                    <div class="proj-desc">AnimeVerse is a responsive anime discovery web app built with HTML, CSS, and JavaScript. It lets users search anime, 
+                        explore trending titles, and view details using the Jikan API with a clean and modern UI.</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">HTML5,CSS3, JavaScript (ES6), Jikan API</span></div>
+                        <a href="https://safiulhaquemallik324-debug.github.io/Anime-app/" class="proj-link">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-thumb c4"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Seventh</div>
+                    <div class="proj-name">AI-Dashboard</div>
+                    <div class="proj-desc">Modern productivity dashboard with analytics, project management, team collaboration, and responsive dark mode UI.</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">HTML,CSS3,javacript</span></div>
+                        <a href="https://safiulhaquemallik324-debug.github.io/AI-dashboard/" class="proj-link">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-thumb c4"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Eighth</div>
+                    <div class="proj-name">HELLO :
+                        OTT App UX Case Study</div>
+                    <div class="proj-desc">An all-in-one OTT platform that combines movies and music 
+                        into a single app with a seamless and personalized entertainment experience.</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">Figma,Figjam,AI Tools</span></div>
+                        <a href="https://www.behance.net/gallery/251408823/HELLO-OTT-App-UX-Case-Study" class="proj-link">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-thumb c4"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Nineth</div>
+                    <div class="proj-name">N/A</div>
+                    <div class="proj-desc">N/A</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">N/A</span></div>
+                        <a href="#" class="proj-link">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-thumb c4"></div>
+                <div class="proj-body">
+                    <div class="proj-label">Tenth</div>
+                    <div class="proj-name">N/A</div>
+                    <div class="proj-desc">N/A</div>
+                    <div class="proj-foot">
+                        <div class="pills"><span class="pill">N/A</span></div>
+                        <a href="#" class="proj-link">Live Demo →</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="contact-box">
+            <p class="tag reveal">Get In Touch</p>
+            <h2 class="sec-title reveal">Let's work together</h2>
+            <p class="sec-sub reveal">Have a project in mind or just want to say hi? My inbox is always open.</p>
+            <br />
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=safiulhaquemallik324@gmail.com" class="contact-email reveal">safiulhaquemallik324@gmail.com
+            </a>
+            <div class="socials reveal">
+                <a href="https://github.com/safiulhaquemallik324-debug" class="social-btn">GitHub</a>
+                <a href="https://www.linkedin.com/in/safiul-haque-mallik-b0b7b43a4/" class="social-btn">LinkedIn</a>
+                <a href="#" class="social-btn">Instagram</a>
+                <a href="#" class="social-btn">Dribbble</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <span>© 2026 Safiul All rights reserved.</span>
+        <a href="#hero">↑ Back to top</a>
+    </footer>
+
+
+    <!-- END OF SKILLS -->
+</body>
+<script src="skill.js"></script>
+<script src="script.js"></script>
+
+</html>

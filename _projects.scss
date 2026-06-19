@@ -1,0 +1,116 @@
+/* ── PROJECTS ── */
+#projects {
+  background: var(--bg2);
+}
+
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.pills {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pill {
+  width: fit-content;
+  padding: 10px 13px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+.proj-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.proj-link {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--p3);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: color 0.2s;
+  white-space: nowrap;
+  align-self: flex-end;
+}
+
+.proj-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+}
+
+.proj-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(108, 63, 197, 0.2);
+  border-color: var(--p2);
+}
+
+.proj-thumb {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.c1 {
+  background: linear-gradient(135deg, #1a0f35, #2d1b6b);
+}
+
+.c2 {
+  background: linear-gradient(135deg, #0e1a30, #1b3a6b);
+}
+
+.c3 {
+  background: linear-gradient(135deg, #1a0a2e, #3d1b6b);
+}
+
+.c4 {
+  background: linear-gradient(135deg, #0f1a20, #1b4a5a);
+}
+
+.proj-body {
+  padding: 1.4rem;
+}
+
+.proj-label {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--p3);
+  margin-bottom: 0.4rem;
+}
+
+.proj-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 0.45rem;
+}
+
+.proj-desc {
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 1.1rem;
+}
+
+.proj-link:hover {
+  color: var(--p2);
+}
